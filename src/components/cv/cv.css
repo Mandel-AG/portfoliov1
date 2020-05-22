@@ -26,6 +26,7 @@
 
   .boxCV img{
     height: 180vh;
+    width: 50vw;
   }
 
 @media only screen and (max-width: 380px) {

@@ -76,7 +76,7 @@ h2, h3 {
   justify-content: center;
   align-items: center;
   min-width: 30%;
-  margin: 0 2vw;
+  margin: 4vw 2vw;
 }
 .chaqueProjet p {
   width: 100%;
@@ -87,8 +87,18 @@ h2, h3 {
 
 .divdescription{
   height: 100%;
+  width: 30%;
+  display: flex ;
+  align-items: center;
+  flex-direction: column;
   line-height: 3vh;
 }
+
+
+.divdescription span {
+  color: #0300fe;
+  font-weight: bold;
+ }
 
 @media only screen and (max-width: 380px) {
   .componentheader {

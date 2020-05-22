@@ -12,9 +12,9 @@ export default function Projets (props){
                 <img src={require(`${project.img}`)} alt={project.nom}/>
             </div>
             <div className='divdescription'>
-                <p>Nom : {project.nom}</p>
-                <p>Description : {project.description}</p>
-                <p>Technos : {project.technologie}</p>
+                <p><span>Nom : </span> {project.nom}</p>
+                <p><span>Description : </span> {project.description}</p>
+                <p><span>Technos : </span> {project.technologie}</p>
             </div>
         </div>
     ))
