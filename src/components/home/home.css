@@ -1,0 +1,106 @@
+body {
+  color: gainsboro;
+}
+
+.tout {
+  height: 70%;
+}
+
+.letouthome {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: stretch;
+}
+
+.titre {
+  text-align: center;
+  width: 100%;
+}
+
+.componentheader {
+  display: none;
+  justify-content: center;
+}
+
+.componentfooter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 200;
+  margin: 0;
+  text-align: center;
+}
+
+.divsoustitre {
+  display: flex;
+  justify-content: center;
+  margin: 2vw 0;
+  width: 100%;
+}
+.divsoustitre p {
+  font-size: 40px;
+  text-align: center;
+  width: 80%;
+}
+
+.containertext {
+  width: 100%;
+  display: flex;
+  padding: 2%;
+  justify-content: center;
+}
+
+.textepresentation {
+  text-justify: auto;
+  line-height: 170%;
+  width: 80%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 380px) {
+  body {
+    font-size: x-small;
+  }
+
+  .containertext {
+    width: 100%;
+  }
+
+  .divsoustitre {
+    width: 100%;
+  }
+
+  .letouthome {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .componentheader {
+    display: flex;
+    justify-content: center;
+  }
+
+  .componentfooter {
+    display: none;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+  }
+
+  h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

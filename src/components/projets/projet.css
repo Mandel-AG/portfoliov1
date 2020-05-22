@@ -1,0 +1,130 @@
+.all {
+  height: 100%;
+}
+
+.tout {
+  height: 70%;
+}
+
+/* body{
+  color: gainsboro;
+} */
+.componentheader {
+  display: none;
+  justify-content: center;
+}
+
+.componentfooter {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.containertitre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h2, h3 {
+  width: 100%;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.containerProjet {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+/* .containerProjet .cercleProjet {
+  -webkit-transition: .3s ease-in-out !important; 
+  /* transition: .3s ease-in-out !important; */
+  /* transition: rotate 1s;
+} */
+/* 
+.containerProjet .cercleProjet:hover {
+  width: 300px; /* on affiche l'image au carré */
+  /* height: 300px;
+  transform: rotate( -180deg );            
+    transition: transform 150ms ease;
+  border-radius: 50%; 
+} */ 
+
+.cercleProjet {
+  border: 2px solid #A2B3C4;
+  border-radius: 50%;
+  width: 22vw;
+  height: 22vw;
+  overflow: hidden;
+}
+.cercleProjet img {
+  width: 100%;
+  height: 100%;
+}
+
+.chaqueProjet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: 30%;
+  margin: 0 2vw;
+}
+.chaqueProjet p {
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  float:right;
+}
+
+.divdescription{
+  height: 100%;
+  line-height: 3vh;
+}
+
+@media only screen and (max-width: 380px) {
+  .componentheader {
+    display: flex;
+    justify-content: center;
+  }
+
+  .componentfooter {
+    display: none;
+    justify-content: center;
+  }
+
+  .containertitre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 2rem; */
+  }
+
+  .containerProjet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  h2, h3 {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem;
+  }
+
+
+  .cercleProjet{
+    margin: 6vw 2vw;
+  }
+}
+
+
+/*# sourceMappingURL=projet.css.map */

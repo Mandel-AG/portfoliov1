@@ -1,0 +1,54 @@
+
+    .ensembledesCercles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 6%;
+    }
+
+    .ensembledesCercleshome{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+  
+    .divchaquemenu{
+        width: 14%;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+
+    img{
+        width: 80%;
+    }
+
+
+    #cerclechaqueMenu {
+      border: 2px solid black;
+      border-radius: 50%;
+      width: 12vw;
+      height: 12vw;
+      margin: 1vw;
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+
+    .cadrecompetences, .cadreprojets, .cadrecontact{
+      margin-top: 20px;
+    }
+
+
+    .containermenuheader{
+      margin-bottom: 12vw;
+      width: 95%;
+    }
+
+    .nommenu{
+      font-size: 1.2em;
+      font-weight: 500;
+    }
