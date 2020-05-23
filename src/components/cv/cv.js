@@ -27,7 +27,7 @@ export default function Cv (props){
         // </div>
         <div className="d-flex justify-content-center">
           <div className='boxCV'>
-          <img src={require('./cvmandel.png')}  ></img>
+          <img src={require('./cvmandel.png')} alt='cv'  ></img>
 
 
           </div>
