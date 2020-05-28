@@ -53,7 +53,7 @@
 }
 
 
-#cerclechaquecommpetence {
+#cerclechaquecompetence {
   border: 2px solid grey;
   border-radius: 50%;
   width: 6vw;
@@ -66,7 +66,9 @@
   align-items: center;
   justify-content: center;
   font-weight: bolder;
-  font-size: 1.3em;
+  font-size: 1.2em;
+  background-color: whitesmoke;
+  color: black;
 }
 
 
@@ -99,6 +101,19 @@
   height: 0.7vh;
 }
 
+
+
+@media only screen and (max-width: 945px) {
+  .cerclechaquecompetence{
+    font-size: 0.8rem;
+  }
+  
+}
+
+
+
+
+
 @media only screen and (max-width: 650px) {
   .containerAll {
     display: flex;
@@ -120,7 +135,7 @@
     width: 100%;
   }
 
-  #cerclechaquecommpetence {
+  #cerclechaquecompetence {
     width: 18vw;
     height: 18vw;
     margin: 4vw;

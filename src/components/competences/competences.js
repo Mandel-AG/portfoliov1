@@ -23,7 +23,7 @@ class Competences extends React.Component{
 
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
+                                            <div id='cerclechaquecompetence'>
                                                 <span>HTML 5</span>
                                             </div>
                                             <div className='progress-bar'>
@@ -33,7 +33,7 @@ class Competences extends React.Component{
 
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
+                                            <div id='cerclechaquecompetence'>
                                                 <span>CSS 3</span>
                                             </div>
                                             <div className='progress-bar'>
@@ -42,8 +42,8 @@ class Competences extends React.Component{
                                         </div>
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
-                                                <span>Javascript</span>
+                                            <div id='cerclechaquecompetence'>
+                                                <span>JS</span>
                                             </div>
                                             <div className='progress-bar'>
                                             <ProgressBar now={70} />
@@ -51,7 +51,7 @@ class Competences extends React.Component{
                                         </div>
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
+                                            <div id='cerclechaquecompetence'>
                                                 <span>React JS</span>
                                             </div>
                                             <div className='progress-bar'>
@@ -61,7 +61,7 @@ class Competences extends React.Component{
 
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
+                                            <div id='cerclechaquecompetence'>
                                                 <span>Node JS</span>
                                             </div>
                                             <div className='progress-bar'>
@@ -70,7 +70,7 @@ class Competences extends React.Component{
                                         </div>
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
+                                            <div id='cerclechaquecompetence'>
                                                 <span>MySQL</span>
                                             </div>
                                             <div className='progress-bar'>
@@ -79,7 +79,7 @@ class Competences extends React.Component{
                                         </div>
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
+                                            <div id='cerclechaquecompetence'>
                                                 <span>NoSQL</span>
                                             </div>
                                             <div className='progress-bar'>
@@ -89,7 +89,7 @@ class Competences extends React.Component{
 
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
+                                            <div id='cerclechaquecompetence'>
                                                 <span>Express JS</span>
                                             </div>
                                             <div className='progress-bar'>
@@ -98,7 +98,7 @@ class Competences extends React.Component{
                                         </div>
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
+                                            <div id='cerclechaquecompetence'>
                                                 <span>Git</span>
                                             </div>
                                             <div className='progress-bar'>
@@ -108,7 +108,7 @@ class Competences extends React.Component{
 
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
+                                            <div id='cerclechaquecompetence'>
                                                 <span>Bootstrap</span>
                                             </div>
                                             <div className='progress-bar'>
@@ -118,7 +118,7 @@ class Competences extends React.Component{
 
 
                                         <div className='containtercerclecompetences'>
-                                            <div id='cerclechaquecommpetence'>
+                                            <div id='cerclechaquecompetence'>
                                                 <span>Wordpress</span>
                                             </div>
                                             <div className='progress-bar'>
@@ -132,14 +132,14 @@ class Competences extends React.Component{
                             <div className='softSkill'>
                                     <span className='category'><h4>Soft Skill</h4></span>
                                 <div className='containersoftskill'>
-                                    <div id='cerclechaquecommpetence'>Autonomie</div>
-                                    <div id='cerclechaquecommpetence'>Perséverance</div>
-                                    <div id='cerclechaquecommpetence'>Passion</div>
-                                    <div id='cerclechaquecommpetence'>Respect</div>
-                                    <div id='cerclechaquecommpetence'>Travail d'équipe</div>
-                                    <div id='cerclechaquecommpetence'>Adaptabilite</div>
-                                    <div id='cerclechaquecommpetence'>Créativite</div>
-                                    <div id='cerclechaquecommpetence'>Polyvalence</div>
+                                    <div id='cerclechaquecompetence'>Autonomie</div>
+                                    <div id='cerclechaquecompetence'>Perséve-<br></br>rance</div>
+                                    <div id='cerclechaquecompetence'>Passion</div>
+                                    <div id='cerclechaquecompetence'>Respect</div>
+                                    <div id='cerclechaquecompetence'>Travail <br></br>d'équipe</div>
+                                    <div id='cerclechaquecompetence'>Adapta-<br></br>bilité</div>
+                                    <div id='cerclechaquecompetence'>Créativite</div>
+                                    <div id='cerclechaquecompetence'>Polyvalence</div>
                                 </div>
                             </div>
                     </div>
