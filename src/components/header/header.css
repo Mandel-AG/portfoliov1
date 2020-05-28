@@ -1,5 +1,6 @@
 .containerHeader{
-background-color: whitesmoke;
+/* background-color: whitesmoke; */
+background-color: #F9E4B7;
 height: 10vh;
 align-items: center;
 margin-bottom: 4vh;
@@ -46,7 +47,8 @@ a{
 }
 
 a:hover{
-   color:crimson;
+   /* color:crimson; */
+   color:purple;
    text-decoration: none;
 }
 

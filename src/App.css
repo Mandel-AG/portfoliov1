@@ -3,9 +3,8 @@ body{
     /* background-color: darkslategrey; */
     background-color: black;
     color: whitesmoke;
-    font-family: 'Oxanium';
-
-}
+    /* font-family: 'Oxanium'; */
+    font-family: 'Piedra', cursive;}
 /* 
 .componentheader{
 position:static
