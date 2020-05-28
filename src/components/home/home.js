@@ -9,8 +9,8 @@ class Home extends React.Component{
     render(){
 
         return(
-            <Animated  className='homeContainer' animationIn="slideInRight" animationOut="bounceOutLeft" isVisible={true}>
-                    <div className='title'>
+            <Animated  className='homeContainer' animationIn="zoomIn" animationOut="bounceOutLeft" isVisible={true}>
+                    <div className='title homeTitle'>
                         <h2>Qui suis-je ?</h2>
                     </div>
                     <div className='name'>

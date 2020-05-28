@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, Switch, BrowserRouter as Router} from 'react-router-dom';
-import {Home, Competences, Formations, Projets, Contact, Cv, Header} from './components';
+import {Home, Competences, Formations, Projets, Contact, Cv, Header, LandingPage} from './components';
 import './App.css'
 
 
@@ -10,6 +10,7 @@ class App extends React.Component {
             <Router>
                     <Header />
                 <Switch>
+                    <Route exact path="/" component={LandingPage} />
                     <Route exact path="/home" component={Home} />
                     <Route exact path="/competences" component={Competences} />
                     <Route exact path='/formations' component={Formations}/>

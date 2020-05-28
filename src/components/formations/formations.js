@@ -14,7 +14,7 @@ export default class Formations extends Component{
                     </div>
                     <div className='educationContainer'> 
                         <div className='ensembleformation'>
-                            <span className='educationTitle'><h4>Formations</h4></span>
+                            <span className='educationTitle'><h4>Parcours</h4></span>
                             <div className='containerformation'>
                                     <p id='simplontitre'>Simplon - Titre professionnel</p>
                                     <p id='simplontext'>
