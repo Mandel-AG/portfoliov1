@@ -1,25 +1,3 @@
-.all {
-  height: 100%;
-}
-
-.tout {
-  height: 70%;
-}
-
-/* body{
-  color: gainsboro;
-} */
-.componentheader {
-  display: none;
-  justify-content: center;
-}
-
-.componentfooter {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
-}
 
 .containertitre {
   display: flex;
@@ -31,7 +9,7 @@ h2 {
   font-size: 3rem;
 }
 
-h2, h3 {
+.projectTitle h2 {
   width: 100%;
   text-align: center;
   margin: 0.5rem;
@@ -40,75 +18,62 @@ h2, h3 {
 .containerProjet {
   display: flex;
   align-items: center;
-  overflow-x: auto;
-  justify-content: center;
+  overflow: auto;
+  height: 50vh;
 }
-
-/* .containerProjet .cercleProjet {
-  -webkit-transition: .3s ease-in-out !important; 
-  /* transition: .3s ease-in-out !important; */
-  /* transition: rotate 1s;
-} */
-/* 
-.containerProjet .cercleProjet:hover {
-  width: 300px; /* on affiche l'image au carré */
-  /* height: 300px;
-  transform: rotate( -180deg );            
-    transition: transform 150ms ease;
-  border-radius: 50%; 
-} */ 
 
 .cercleProjet {
   border: 2px solid #A2B3C4;
   border-radius: 50%;
-  width: 22vw;
+  width: 34vw;
   height: 22vw;
   overflow: hidden;
+  margin-right: 2vw;
 }
 .cercleProjet img {
   width: 100%;
   height: 100%;
 }
 
-.chaqueProjet {
+.eachProject {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  min-width: 30%;
-  margin: 4vw 2vw;
-}
-.chaqueProjet p {
-  width: 100%;
-  font-size: 1rem;
-  text-align: center;
-  float:right;
-}
-
-.divdescription{
+  width: 50vw;
   height: 100%;
-  width: 30%;
-  display: flex ;
-  align-items: center;
-  flex-direction: column;
-  line-height: 3vh;
+  margin-right: 4vw;
+}
+.eachProject p {
+  width: 100%;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
-
+.divdescription {
+  font-size: 0.8rem;
+  width: 70%;
+}
 .divdescription span {
-  color: #0300fe;
-  font-weight: bold;
- }
+  color: purple;
+  font-style: italic;
+  font-weight: bolder;
+}
 
 @media only screen and (max-width: 650px) {
-  .componentheader {
-    display: flex;
-    justify-content: center;
+
+  .projectTitle{
+    margin-bottom: 7vh;
   }
 
-  .componentfooter {
-    display: none;
-    justify-content: center;
+  .eachProject{
+    width: 100%;
+    height: 25vh;
+    padding: 2vh;
+  }
+
+  .cercleProjet{
+    height: 150px;
+    width: 150px;
   }
 
   .containertitre {
@@ -122,19 +87,14 @@ h2, h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 100%;
   }
 
-  h2, h3 {
+  .projectTitle h2 {
     width: 100%;
     text-align: center;
     margin: 0.5rem;
   }
-
-
-  .cercleProjet{
-    margin: 6vw 2vw;
-  }
 }
-
 
 /*# sourceMappingURL=projet.css.map */

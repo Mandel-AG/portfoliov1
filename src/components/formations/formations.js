@@ -7,10 +7,14 @@ export default class Formations extends Component{
 
     render(){
         return(
-                <Animated className='tout' animationIn="fadeInLeft" animationOut="fadeOutLeft" isVisible={true}>
-                    <div className='letoutformation'> 
+                <Animated  animationIn="fadeInLeft" animationOut="fadeOutLeft" isVisible={true}>
+
+                    <div className='title careerTitle'>
+                        <h2>Formations</h2>
+                    </div>
+                    <div className='educationContainer'> 
                         <div className='ensembleformation'>
-                            <span className='titreformation'><h3>Formations</h3></span>
+                            <span className='educationTitle'><h4>Formations</h4></span>
                             <div className='containerformation'>
                                     <p id='simplontitre'>Simplon - Titre professionnel</p>
                                     <p id='simplontext'>
@@ -23,20 +27,20 @@ export default class Formations extends Component{
 
                         
                         <div className='ensembelcertifications'>
-                            <span className='titreformation'><h3>Certifications</h3></span>
-                            <div className='scroll'>
+                            <span className='educationTitle'><h4>Certifications</h4></span>
+                            <div className='certificationContainer'>
                                 <div id='containerchaquecertif'>
                                     <span id='cerclechaquecertification'>
                                         <h5>Opquast</h5>
                                     </span>
-                                    <p>Maitrise qualite web. Formation certifiante sur les bonnes pratiques considérées 
-                                        comme indispensables pour la qualité du site 
+                                    <p>Maitrise qualité web. Formation certifiante sur les bonnes pratiques considérées 
+                                        comme indispensables pour la qualité du site.
                                     </p>
                                 </div>
 
                                 <div id='containerchaquecertif'>
                                     <span id='cerclechaquecertification'>
-                                        <h5>Certification Agile</h5>
+                                        <h5>Certification Agilité</h5>
                                     </span>
                                     <p>Cours et examen sur la certification agile.</p>
                                 </div>
@@ -45,7 +49,7 @@ export default class Formations extends Component{
                                     <span id='cerclechaquecertification'>
                                         <h5>Freeformers</h5>
                                         </span>
-                                    <p>Programme de developpement des competences digitales sur diverses themes(UI, UX, cybersecurite, referencements etc.).</p>
+                                    <p>Programme de développement des compétences digitales sur divers themes(UI, UX, cybersécurite, réferencements etc.).</p>
                                 </div>
                         </div>
                     </div>   

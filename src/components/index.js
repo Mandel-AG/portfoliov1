@@ -5,4 +5,3 @@ export {default as Projets} from './projets/projets';
 export {default as Contact} from './contact/contact';
 export {default as Cv} from './cv/cv';
 export {default as Header} from './header/header'
-export {default as Footer} from './footer/footer'

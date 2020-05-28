@@ -1,54 +1,89 @@
+.containerHeader{
+background-color: whitesmoke;
+height: 10vh;
+align-items: center;
+margin-bottom: 4vh;
+}
 
-    .ensembledesCercles {
-      display: flex;
-      flex-wrap: wrap;
+
+.navBar{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   height: 100%;
+}
+
+.navBar ul{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   list-style: none;
+   width: 50%;
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+
+}
+
+.navBar li{
+   height: 10%;
+}
+
+.elementInNav{
+  text-align: center;
+  width: 40%;
+  font-size: 0.9rem;
+  text-decoration: none;
+   color: black;
+}
+
+.shortElementInNav{
+   width:25%;
+}
+
+a{
+   color:black;
+}
+
+a:hover{
+   color:crimson;
+   text-decoration: none;
+}
+
+/* 
+.elementInNav Link{
+   text-decoration: none;
+   color: black;
+} */
+
+
+
+@media only screen and (max-width: 650px) {
+
+   .navBar{
       justify-content: space-around;
-      margin-bottom: 6%;
-    }
+   }
 
-    .ensembledesCercleshome{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+   .navBar ul{
+      width: 90%;
+      overflow-x: auto;
+      justify-content: start;
+   }
+   
+   .elementInNav{
+      width: 100%;
+      margin-right: 2vw;
+      padding: 2vw;
     }
-  
-    .divchaquemenu{
-        width: 14%;
-        text-align: center;
-        font-size: 0.5rem;
-    }
-
-    img{
-        width: 80%;
-    }
+}
 
 
-    #cerclechaqueMenu {
-      border: 2px solid black;
-      border-radius: 50%;
-      width: 12vw;
-      height: 12vw;
-      margin: 1vw;
-      text-decoration: none;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
+@media only screen and (max-width: 930px) {
+   .elementInNav{
+      width: 100%;
+      margin-right: 2vw;
+      padding: 2vw;
     }
 
 
-    .cadrecompetences, .cadreprojets, .cadrecontact{
-      margin-top: 20px;
-    }
-
-
-    .containermenuheader{
-      margin-bottom: 12vw;
-      width: 95%;
-    }
-
-    .nommenu{
-      font-size: 1.2em;
-      font-weight: 500;
-    }
+}

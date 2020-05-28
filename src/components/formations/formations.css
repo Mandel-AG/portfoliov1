@@ -1,33 +1,26 @@
-.tout {
-  height: 70%;
+
+.careerTitle{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 8vh;
 }
 
-.letoutformation {
+.educationContainer {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
 }
 
-.componentheader {
-  display: none;
-  width: 100%;
-}
-
-.componentfooter {
-  display: flex;
-  width: 100%;
-}
-
-.titreformation {
+.educationTitle {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-bottom: 15vh;
 }
-.titreformation h3 {
+.chategory h4 {
   font-weight: 500;
-  position: absolute;
-  top: 3vh;
   width: 40%;
   font-size: 1.8rem;
 }
@@ -52,13 +45,10 @@
   flex-wrap: wrap;
 }
 
-.scroll {
+.certificationContainer {
   display: flex;
   width: 100%;
-  flex-wrap: wrap;
   justify-content: center;
-  overflow-y: scroll;
-  align-items: center;
 }
 
 .ensembelcertifications {
@@ -74,17 +64,18 @@ p {
 }
 
 h5 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 #simplontext {
   /* margin-top: 1rem; */
-  font-size: large;
+  font-size: 1rem;
 }
 
 #simplontitre {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
+  font-style: italic;
 }
 
 #cerclechaquecertification {
@@ -101,7 +92,6 @@ h5 {
 }
 
 #containerchaquecertif {
-  margin: 2vw;
   width: 40%;
   display: flex;
   justify-content: center;
@@ -111,22 +101,13 @@ h5 {
 }
 
 @media only screen and (max-width: 650px) {
-  .componentheader {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
 
-  .componentfooter {
-    display: none;
-    width: 100%;
-    justify-content: center;
-  }
 
   .ensembleformation {
     width: 100%;
     text-align: center;
     height: 45%;
+    margin-bottom: 4vh;
   }
 
   .ensembelcertifications {
@@ -137,7 +118,7 @@ h5 {
     height: 30%;
   }
 
-  .letoutformation {
+  .educationContainer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -158,7 +139,7 @@ h5 {
     font-size: 0.6rem;
   }
 
-  .titreformation h3 {
+  .chategory h4 {
     text-align: center;
     margin-right: 0;
     width: 100%;
@@ -182,7 +163,6 @@ h5 {
 
   #containerchaquecertif {
     width: 40%;
-    margin: 5vw;
     padding: 2vw;
     display: flex;
     justify-content: center;
@@ -190,13 +170,14 @@ h5 {
     height: 100%;
   }
 
-  #simplontext {
-    font-size: small;
+  #simplontext #simplontitre {
+    font-size: 1.8rem;
   }
 
-  .scroll {
-    height: 100%;
+  .educationTitle{
+    margin-bottom: 10vh;
   }
+
 }
 
 /*# sourceMappingURL=formations.css.map */

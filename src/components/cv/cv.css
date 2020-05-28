@@ -15,9 +15,9 @@
   }
 
   .boxCV{
-    height: 72vh;
+    /* height: 72vh; */
     min-width: 20%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     display: flex;
     justify-content: center;
     border-bottom: 1px solid purple;
@@ -26,26 +26,14 @@
 
   .boxCV img{
     height: 180vh;
-    width: 50vw;
+    width: 75vw;
   }
 
 @media only screen and (max-width: 650px) {
 
-
-    .componentheader{
-      display: flex;
-      justify-content: center;
-    
-    }
-    
-    .componentfooter{
-      display: none;
-      justify-content: center;
-    }
-
     .boxCV img{
-      height: 90vh;
-      width: 90%;
+      height: 70vh;
+      width: 95%;
     }
 
     /* .boxCV{

@@ -10,10 +10,15 @@ class Competences extends React.Component{
    
     render(){
         return(
-                <Animated className='tout' animationIn="fadeInLeft" animationOut="fadeOutLeft" isVisible={true}>
-                    <div className='letoutcompetences'>
-                            <div className='ensemblecompetences'>
-                                    <span className='titrecompetences'><h3>Competences</h3></span>
+                <Animated className='skillContainer' animationIn="fadeInLeft" animationOut="fadeOutLeft" isVisible={true}>
+                    
+                    <div className=' title skillTitle'>
+                        <h2> Compétences </h2>
+                    </div>
+
+                    <div className='containerAll'>
+                            <div className='techSkillContainer'>
+                                    <span className='category'><h4>Technos</h4></span>
                                     <div className='containercompetences'>
 
 
@@ -124,16 +129,16 @@ class Competences extends React.Component{
                                     </div>
                             </div>
 
-                            <div className='ensemblesoftskill'>
-                                    <span className='titrecompetences'><h3>Soft Skill</h3></span>
+                            <div className='softSkill'>
+                                    <span className='category'><h4>Soft Skill</h4></span>
                                 <div className='containersoftskill'>
                                     <div id='cerclechaquecommpetence'>Autonomie</div>
-                                    <div id='cerclechaquecommpetence'>Perseverance</div>
+                                    <div id='cerclechaquecommpetence'>Perséverance</div>
                                     <div id='cerclechaquecommpetence'>Passion</div>
                                     <div id='cerclechaquecommpetence'>Respect</div>
-                                    <div id='cerclechaquecommpetence'>Travail d'equipe</div>
+                                    <div id='cerclechaquecommpetence'>Travail d'équipe</div>
                                     <div id='cerclechaquecommpetence'>Adaptabilite</div>
-                                    <div id='cerclechaquecommpetence'>Creativite</div>
+                                    <div id='cerclechaquecommpetence'>Créativite</div>
                                     <div id='cerclechaquecommpetence'>Polyvalence</div>
                                 </div>
                             </div>

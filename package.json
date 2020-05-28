@@ -8,7 +8,6 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
     "formik": "^2.1.4",
-    "node-sass": "^4.14.1",
     "react": "^16.12.0",
     "react-animated-css": "^1.2.1",
     "react-bootstrap": "^1.0.0-beta.16",
@@ -19,15 +18,13 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.2.0",
     "react-transition-group": "^4.3.0",
-    "reactv16-mailto": "^0.4.4",
-    "sass": "^1.25.0"
+    "reactv16-mailto": "^0.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "scss": "node-sass -watch scss -o css"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

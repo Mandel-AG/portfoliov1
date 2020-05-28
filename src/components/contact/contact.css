@@ -1,22 +1,15 @@
-   .tout {
-    height: 70%;
-  }
-  .componentheader {
-    display: none;
-    justify-content: center;
-  }
-  
-  .componentfooter {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
-  }
-  
   .containertitre {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .contactTitle{
+    margin-bottom: 4vh;
+  }
+
+  .contactText{
+    margin-bottom: 5vh;
   }
   
   h2 {
@@ -24,9 +17,7 @@
   }
   
   h2, h3 {
-    width: 100%;
     text-align: center;
-    margin: 0.5rem;
   }
   
   .containerContact {
@@ -49,29 +40,25 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-width: 30%;
+    width: 30%;
     margin: 2vw;
+    height: 100%;
   }
+
   .chaqueContact p {
     width: 100%;
     font-size: 2rem;
     text-align: center;
+    margin: 0;
+  }
+
+  .chaqueContact span{
+    width: 100%;
+    min-height: 5vh;
+    font-size: 1.5rem;
   }
   
   @media only screen and (max-width: 650px) {
-    .componentheader {
-      display: flex;
-      justify-content: center;
-    }
-  
-    .tout{
-        margin-top:2vh;
-    }
-
-    .componentfooter {
-      display: none;
-      justify-content: center;
-    }
   
     .containertitre {
       display: flex;
@@ -83,6 +70,11 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      flex-direction: column;
+    }
+
+    .chaqueContact{
+      margin: 2vh;
     }
   
     h2, h3 {

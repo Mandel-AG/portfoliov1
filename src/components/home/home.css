@@ -1,34 +1,23 @@
-body {
-  color: gainsboro;
+.homeContainer{
+  color: whitesmoke;
 }
 
-.tout {
-  height: 70%;
-}
-
-.letouthome {
+.title{
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  align-items: stretch;
+  justify-content: center;
+  margin-bottom:  12vh;
 }
 
-.titre {
+.title h2{
+  border-top:2px solid thistle;
+  width: 50%;
+  font-size: 2.5rem;
+}
+
+.name {
   text-align: center;
   width: 100%;
-}
-
-.componentheader {
-  display: none;
-  justify-content: center;
-}
-
-.componentfooter {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
 }
 
 h1 {
@@ -38,26 +27,26 @@ h1 {
   text-align: center;
 }
 
-.divsoustitre {
+.career {
   display: flex;
   justify-content: center;
   margin: 2vw 0;
   width: 100%;
 }
-.divsoustitre p {
+.career p {
   font-size: 40px;
   text-align: center;
   width: 80%;
 }
 
-.containertext {
+.textContainer {
   width: 100%;
   display: flex;
   padding: 2%;
   justify-content: center;
 }
 
-.textepresentation {
+.introduction {
   text-justify: auto;
   line-height: 170%;
   width: 80%;
@@ -69,32 +58,12 @@ h1 {
     font-size: x-small;
   }
 
-  .containertext {
+  .textContainer {
     width: 100%;
   }
 
-  .divsoustitre {
+  .career {
     width: 100%;
-  }
-
-  .letouthome {
-    width: 100%;
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .componentheader {
-    display: flex;
-    justify-content: center;
-  }
-
-  .componentfooter {
-    display: none;
-    justify-content: center;
-    position: relative;
-    bottom: 0;
   }
 
   h1 {

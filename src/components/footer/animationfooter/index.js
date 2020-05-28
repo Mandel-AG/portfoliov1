@@ -1,6 +1,0 @@
-export {default as AnimHome} from './animHome'
-export {default as AnimCompetences} from './animCompetences'
-export {default as AnimFormations} from './animFormation'
-export {default as AnimContact} from './animContact'
-export {default as AnimProjets} from './animProjets' 
-export {default as AnimCv} from './animCV' 

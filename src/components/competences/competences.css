@@ -1,9 +1,4 @@
-.tout {
-  height: 70%;
-  padding-top: 3vh;
-}
-
-.letoutcompetences {
+.containerAll{
   height: 100%;
   width: 100%;
   display: flex;
@@ -15,28 +10,27 @@
   height: 80%;
 }
 
-.componentheader {
-  display: none;
-  width: 100%;
-}
-
-.componentfooter {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
-}
-
-.ensemblecompetences {
+.techSkillContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   font-size: x-small;
   width: 50%;
 }
 
-.ensemblesoftskill {
+.softSkill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: x-small;
+  width: 50%;
+}
+
+/* .softSkill {
   height: 100%;
   text-align: center;
   width: 50%;
@@ -44,17 +38,20 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-}
+} */
 
-.titrecompetences {
+.skillTitle {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: 8vh;
 }
-.titrecompetences h3 {
+
+.category h4 {
   font-size: 2rem;
   width: 100%;
 }
+
 
 #cerclechaquecommpetence {
   border: 2px solid grey;
@@ -72,15 +69,17 @@
   font-size: 1.3em;
 }
 
+
 .containercompetences {
-  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  /* width: 70%; */
 }
 
+
 .containersoftskill {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-around;
   justify-content: center;
@@ -101,29 +100,24 @@
 }
 
 @media only screen and (max-width: 650px) {
-  .letoutcompetences {
+  .containerAll {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .titrecompetences h3 {
-    font-size: xx-large;
+  .skillTitle h2{
+    font-size: 1.9rem;
   }
 
-  .componentheader {
-    display: flex;
-    justify-content: center;
+  .category h4 {
+    font-size: 1.4rem;
   }
 
-  .componentfooter {
-    display: none;
-    justify-content: center;
-  }
-
-  .ensemblecompetences {
+  .techSkillContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
   }
 
   #cerclechaquecommpetence {
@@ -131,11 +125,6 @@
     height: 18vw;
     margin: 4vw;
     font-size: small;
-  }
-
-  .ensemblecompetences {
-    justify-content: space-around;
-    width: 100%;
   }
 
   .containercompetences {
@@ -147,9 +136,14 @@
     justify-content: center;
   }
 
-  .ensemblesoftskill {
+  .softSkill {
     width: 100%;
     margin-top: 20vw;
+  }
+  .softSkill {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .containtercerclecompetences {
@@ -162,4 +156,3 @@
   }
 }
 
-/*# sourceMappingURL=competences.css.map */
