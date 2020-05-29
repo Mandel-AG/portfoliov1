@@ -1,13 +1,13 @@
 const Tab = [
-    // {
-    //     id:1,
-    //     nom: 'AG Movies Streaming',
-    //     img:'./imgprojets/movies.png',
-    //     description:"Projet de site VOD. Utilisation d'une api externe.",
-    //     technologie : 'React JS', 
-    //     visite : true,
-    //     lien :'https://movies-ag.herokuapp.com/'
-    // },
+    {
+        id:1,
+        nom: 'AG Movies Streaming',
+        img:'./imgprojets/movies.png',
+        description:"Projet de site VOD. Utilisation d'une api externe.",
+        technologie : 'React JS', 
+        visite : true,
+        lien :'https://movies-ag.herokuapp.com/'
+    },
     {
         id:2,
         nom: 'Misora VOD',
