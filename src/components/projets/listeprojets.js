@@ -9,8 +9,17 @@ const Tab = [
         lien :'https://movies-ag.herokuapp.com/'
     },
     {
+        id:4,
+        nom: 'Todo List',
+        img:'./imgprojets/todolist.png',
+        description:"Todo List réalisée sur ReactJS",
+        technologie : 'React JS',
+        visite : true,
+        lien: 'https://todolist-agb-man.herokuapp.com/'
+    },
+    {
         id:2,
-        nom: 'Misora VOD',
+        nom: 'Misoralist VOD',
         img:'./imgprojets/Misora.png',
         description:"Projet d'un site VOD",
         technologie : 'Javascrip natif et Jquery',

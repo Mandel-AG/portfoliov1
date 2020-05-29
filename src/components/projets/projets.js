@@ -6,9 +6,17 @@ import {default as Tab} from './listeprojets'
 
 export default class Projets extends Component{ 
 
+
     render(){
+
+        const handleClick = (e,link) =>{
+            e.preventDefault()
+            window.location.href = link
+        }
+
+
         const projects = Tab.map(project => (
-            <div className='eachProject' key={project.id}>
+            <div className='eachProject' key={project.id} >
                 <div className='cercleProjet'>
                     <img src={require(`${project.img}`)} alt={project.nom}/>
                 </div>
@@ -16,7 +24,7 @@ export default class Projets extends Component{
                     <li><span>Nom : </span> {project.nom}</li>
                     <li><span>Description : </span> {project.description}</li>
                     <li><span>Technos : </span> {project.technologie}</li>
-                    {(project.visite) ? (<p><span>Visitez</span></p>) : (null)}    
+                    {(project.visite) ? (<p><span onClick={(e)=>handleClick(e,project.lien)}>Visitez</span ></p>) : (null)}    
                 </ul>
             </div>
         ))

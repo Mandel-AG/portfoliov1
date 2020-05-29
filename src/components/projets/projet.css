@@ -1,10 +1,33 @@
 
+::-webkit-scrollbar {
+  width: 1px;
+  border: 1px solid #d5d5d5;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: black;
+}
+
+
 .containertitre {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+
+.divdescription p{
+  cursor: pointer;
+}
+
+ 
 h2 {
   font-size: 3rem;
 }
