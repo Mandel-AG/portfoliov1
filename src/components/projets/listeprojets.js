@@ -9,7 +9,17 @@ const Tab = [
         lien :'https://movies-ag.herokuapp.com/'
     },
     {
-        id:4,
+        id:2,
+        nom: 'Sodassu',
+        img:'./imgprojets/sodassu.png',
+        description:"Reproduction d\'une interface découverte sur un autre site",
+        technologie : 'Javascript natif, HTML / CSS',
+        visite : true,
+        lien :'https://sodassu.herokuapp.com/'
+
+    },
+    {
+        id:3,
         nom: 'Todo List',
         img:'./imgprojets/todolist.png',
         description:"Todo List réalisée sur ReactJS",
@@ -18,7 +28,7 @@ const Tab = [
         lien: 'https://todolist-agb-man.herokuapp.com/'
     },
     {
-        id:2,
+        id:4,
         nom: 'Misoralist VOD',
         img:'./imgprojets/Misora.png',
         description:"Projet d'un site VOD",
@@ -27,7 +37,7 @@ const Tab = [
 
     },
     {
-        id:3,
+        id:5,
         nom: 'Club basket-ball',
         img:'./imgprojets/cbbv.png',
         description:"Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office.",
