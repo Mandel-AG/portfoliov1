@@ -1,5 +1,15 @@
 const Tab = [
     {
+        id:5,
+        nom: 'Club basket-ball',
+        img:'./imgprojets/cbbv.png',
+        description:"Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office. Premier projet Fullstack à finir et améliorer",
+        technologie : 'React JS (front) et Node JS (back)',
+        visite : true,
+        lien: 'https://cbbv.herokuapp.com/'
+
+    },
+    {
         id:1,
         nom: 'AG Movies Streaming',
         img:'./imgprojets/movies.png',
@@ -24,8 +34,7 @@ const Tab = [
         img:'./imgprojets/todolist.png',
         description:"Todo List réalisée sur ReactJS",
         technologie : 'React JS',
-        visite : true,
-        lien: 'https://todolist-agb-man.herokuapp.com/'
+        visite : false
     },
     {
         id:4,
@@ -33,15 +42,6 @@ const Tab = [
         img:'./imgprojets/Misora.png',
         description:"Projet d'un site VOD",
         technologie : 'Javascrip natif et Jquery',
-        visite : false
-
-    },
-    {
-        id:5,
-        nom: 'Club basket-ball',
-        img:'./imgprojets/cbbv.png',
-        description:"Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office.",
-        technologie : 'React JS (front) et Node JS (back)',
         visite : false
 
     },

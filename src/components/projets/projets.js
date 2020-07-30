@@ -11,7 +11,7 @@ export default class Projets extends Component{
 
         const handleClick = (e,link) =>{
             e.preventDefault()
-            window.location.href = link
+            window.open(link);
         }
 
 

@@ -73,7 +73,7 @@ h2 {
 }
 
 .divdescription {
-  font-size: 0.8rem;
+  font-size: 1rem;
   width: 70%;
 }
 .divdescription span {
@@ -117,6 +117,10 @@ h2 {
     width: 100%;
     text-align: center;
     margin: 0.5rem;
+  }
+
+  .divdescription {
+    font-size: 0.8rem;
   }
 }
 
