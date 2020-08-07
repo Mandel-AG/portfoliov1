@@ -24,7 +24,7 @@ export default class Projets extends Component{
                     <li><span>Nom : </span> {project.nom}</li>
                     <li><span>Description : </span> {project.description}</li>
                     <li><span>Technos : </span> {project.technologie}</li>
-                    {(project.visite) ? (<p><span onClick={(e)=>handleClick(e,project.lien)}>Visitez</span ></p>) : (null)}    
+                    {(project.visite) ? (<p><span onClick={(e)=>handleClick(e,project.lien)}>Visitez</span ></p>) : <p>Hébergement du projet à venir</p>}    
                 </ul>
             </div>
         ))

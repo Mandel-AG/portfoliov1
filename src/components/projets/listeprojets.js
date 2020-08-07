@@ -5,7 +5,7 @@ const Tab = [
         img:'./imgprojets/cbbv.png',
         description:"Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office. Premier projet Fullstack à finir et améliorer",
         technologie : 'React JS (front) et Node JS (back)',
-        visite : true,
+        visite : false,
         lien: 'https://cbbv.herokuapp.com/'
 
     },
@@ -15,7 +15,7 @@ const Tab = [
         img:'./imgprojets/movies.png',
         description:"Projet de site VOD. Utilisation d'une api externe.",
         technologie : 'React JS', 
-        visite : true,
+        visite : false,
         lien :'https://movies-ag.herokuapp.com/'
     },
     {
@@ -24,7 +24,7 @@ const Tab = [
         img:'./imgprojets/sodassu.png',
         description:"Reproduction d\'une interface découverte sur un autre site",
         technologie : 'Javascript natif, HTML / CSS',
-        visite : true,
+        visite : false,
         lien :'https://sodassu.herokuapp.com/'
 
     },
