@@ -29,6 +29,15 @@ const Tab = [
 
     },
     {
+        id:6,
+        nom: 'Nutrifruits',
+        img:'./imgprojets/nutrifruits.png',
+        description:"Projet d'un site de nutrition. Indication des éléments nutritifs de fruits + ajout d'un chat en temps réel.",
+        technologie : 'React js et Node (Socket io)',
+        visite : false
+
+    },
+    {
         id:3,
         nom: 'Todo List',
         img:'./imgprojets/todolist.png',
@@ -45,6 +54,7 @@ const Tab = [
         visite : false
 
     },
+  
     
 ]
 
