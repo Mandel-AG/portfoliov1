@@ -3,7 +3,7 @@ const Tab = [
         id:5,
         nom: 'Club basket-ball',
         img:'./imgprojets/cbbv.png',
-        description:"Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office. Premier projet Fullstack à finir et améliorer",
+        description:" Premier projet Fullstack. Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office.",
         technologie : 'React JS (front) et Node JS (back)',
         visite : false,
         lien: 'https://cbbv.herokuapp.com/'
