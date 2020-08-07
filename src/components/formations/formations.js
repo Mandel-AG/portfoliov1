@@ -16,12 +16,28 @@ export default class Formations extends Component{
                         <div className='ensembleformation'>
                             <span className='educationTitle'><h4>Parcours</h4></span>
                             <div className='containerformation'>
-                                    <p id='simplontitre'>Simplon - Titre professionnel</p>
-                                    <p id='simplontext'>
+
+
+                            <div className="containerFormationEach">
+                                <p id='containerFormationTitre'>SupDeWeb - Bachelor Développeur web</p>
+                                    <p id='containerFormationText'>
+                                        Préparation d'un formation en alternance autour des langagues et 
+                                        frameworks Javascript et PHP. 
+                                    
+                                    </p>
+                                </div>
+
+
+
+                            <div className="containerFormationEach">
+
+                                    <p id='containerFormationTitre'>Simplon - Titre professionnel</p>
+                                    <p id='containerFormationText'>
                                         Formation intensive en pedagogie active et centree sur 
                                         la pratique(environ 70%
                                         de pratique). Des projets tout au long de l'annee et un stage en entreprise.
                                     </p>
+                            </div>
                             </div>
                         </div>
 

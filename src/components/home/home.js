@@ -25,10 +25,10 @@ class Home extends React.Component{
                         <div className='introduction'>Mandel, 28ans  et anciennement dans le domaine de la logistique. 
                             J’ai auparavant travaillé dans plusieurs secteurs (logistique, vente, 
                             management, restauration). En 2019, j’ai decidé de me tourner vers un métier
-                            qui me plairait plus. J'ai fais des recherches et étudié de mon cote puis j’ai finalement entrepris une reconversion 
+                            qui me plairait plus. J'ai fais des recherches et étudié de mon côté puis j’ai finalement entrepris une reconversion 
                             professionnelle dans ce domaine qui m’interesse fortement et qui aujourd’hui me 
                             passionne. J’ai integré l’organisme Simplon pour une formation développeur web et 
-                            web mobile.
+                            web mobile et je préprare maintenant une alternance en Bachelor à l'école SupDeWeb.
                         </div>
                     </div>
             </Animated>

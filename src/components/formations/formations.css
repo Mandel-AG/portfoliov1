@@ -67,12 +67,16 @@ h5 {
   font-size: 0.8rem;
 }
 
-#simplontext {
+.containerFormationEach{
+  padding: 1.5em;
+}
+
+#containerFormationText {
   /* margin-top: 1rem; */
   font-size: 1rem;
 }
 
-#simplontitre {
+#containerFormationTitre {
   font-size: 1.2rem;
   font-weight: 600;
   font-style: italic;
@@ -176,7 +180,7 @@ h5 {
     height: 100%;
   }
 
-  #simplontext #simplontitre {
+  #containerFormationText #containerFormationTitre {
     font-size: 1.8rem;
   }
 
