@@ -19,10 +19,9 @@ export default class Formations extends Component{
 
 
                             <div className="containerFormationEach">
-                                <p id='containerFormationTitre'>SupDeWeb - Bachelor Développeur web</p>
+                                <p id='containerFormationTitre'>Digital Campus - Bachelor Développeur d'applications</p>
                                     <p id='containerFormationText'>
-                                        Préparation d'un formation en alternance autour des langagues et 
-                                        frameworks Javascript et PHP. 
+                                        Préparation d'un formation en alternance autour de PHP Symphony, React autres...
                                     
                                     </p>
                                 </div>

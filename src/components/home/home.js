@@ -18,7 +18,7 @@ class Home extends React.Component{
                     </div>
 
                     <div className='career'>
-                        <p>Développeur Front-end</p>
+                        <p>Développeur Junior</p>
                     </div>
                     
                     <div className='textContainer'>
@@ -27,8 +27,7 @@ class Home extends React.Component{
                             management, restauration). En 2019, j’ai decidé de me tourner vers un métier
                             qui me plairait plus. J'ai fais des recherches et étudié de mon côté puis j’ai finalement entrepris une reconversion 
                             professionnelle dans ce domaine qui m’interesse fortement et qui aujourd’hui me 
-                            passionne. J’ai integré l’organisme Simplon pour une formation développeur web et 
-                            web mobile et je préprare maintenant une alternance en Bachelor à l'école SupDeWeb.
+                            passionne. Après une formation courte et intensive, je décide continuer mon apprentissage en alternance avec l'école Digital Campus.
                         </div>
                     </div>
             </Animated>
