@@ -47,7 +47,7 @@ export default function Projets () {
                 <li><span>Nom : </span> {project.nom}</li>
                 <li><span>Description : </span> {project.description}</li>
                 <li><span>Technos : </span> {project.technologie}</li>
-                {(project.visite) ? (<p ><span id='visitez'  onClick={(e)=>handleClick(e,project.lien)}>Visitez</span ></p>) : <p>Hébergement du projet à venir.</p>}    
+                {(project.visite) ? (<p ><span id='visitez'  onClick={(e)=>handleClick(e,project.lien)}>Cliquez ici pour visiter.</span ></p>) : <p>Hébergement du projet à venir.</p>}    
             </ul>
         </div>
     ))

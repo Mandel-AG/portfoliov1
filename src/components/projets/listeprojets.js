@@ -21,7 +21,7 @@ const Tab = [
         id:6,
         nom: 'Nutrifruits',
         img:'./imgprojets/nutrifruits.png',
-        description:"Projet d'un site de nutrition. Indication des éléments nutritifs de fruits + ajout d'un chat en temps réel.",
+        description:"Projet d'un site de nutrition réalisé en groupe. Indication des éléments nutritifs de fruits + ajout d'un chat en temps réel.",
         technologie : 'React js et Node (Socket io)',
         visite : true,
         lien : 'https://nutrifruits.herokuapp.com'
@@ -31,7 +31,7 @@ const Tab = [
         id:2,
         nom: 'Sodassu',
         img:'./imgprojets/sodassu.png',
-        description:"Reproduction d\'une interface découverte sur un autre site",
+        description:"Reproduction d\'une animation découverte sur un autre site",
         technologie : 'Javascript natif, HTML / CSS',
         visite : false,
         lien :'https://sodassu.herokuapp.com/'
