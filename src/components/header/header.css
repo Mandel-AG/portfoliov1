@@ -1,55 +1,54 @@
-.containerHeader{
-/* background-color: whitesmoke; */
-background-color: #F9E4B7;
-height: 10vh;
-align-items: center;
-margin-bottom: 4vh;
+.containerHeader {
+	/* background-color: whitesmoke; */
+	background-color: #f9e4b7;
+	height: 10vh;
+	align-items: center;
+	margin-bottom: 4vh;
 }
 
-
-.navBar{
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   height: 100%;
+.navBar {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+	/* overflow: scroll; */
 }
 
-.navBar ul{
-   display: flex;
-   justify-content: space-around;
-   flex-direction: row;
-   list-style: none;
-   width: 50%;
-   padding: 0;
-   margin: 0;
-   text-decoration: none;
-
+.navBar ul {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	list-style: none;
+	width: 50%;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
 }
 
-.navBar li{
-   height: 10%;
+.navBar li {
+	height: 10%;
 }
 
-.elementInNav{
-  text-align: center;
-  width: 40%;
-  font-size: 0.9rem;
-  text-decoration: none;
-   color: black;
+.elementInNav {
+	text-align: center;
+	width: 40%;
+	font-size: 0.9rem;
+	text-decoration: none;
+	color: black;
 }
 
-.shortElementInNav{
-   width:25%;
+.shortElementInNav {
+	width: 25%;
 }
 
-a{
-   color:black;
+a {
+	color: black;
 }
 
-a:hover{
-   /* color:crimson; */
-   color:purple;
-   text-decoration: none;
+a:hover {
+	/* color:crimson; */
+	color: purple;
+	text-decoration: none;
 }
 
 /* 
@@ -58,34 +57,28 @@ a:hover{
    color: black;
 } */
 
-
-
 @media only screen and (max-width: 650px) {
+	.navBar {
+		justify-content: space-around;
+	}
 
-   .navBar{
-      justify-content: space-around;
-   }
+	.navBar ul {
+		width: 90%;
+		overflow-x: auto;
+		justify-content: start;
+	}
 
-   .navBar ul{
-      width: 90%;
-      overflow-x: auto;
-      justify-content: start;
-   }
-   
-   .elementInNav{
-      width: 100%;
-      margin-right: 2vw;
-      padding: 2vw;
-    }
+	.elementInNav {
+		width: 100%;
+		margin-right: 2vw;
+		padding: 2vw;
+	}
 }
 
-
 @media only screen and (max-width: 930px) {
-   .elementInNav{
-      width: 100%;
-      margin-right: 2vw;
-      padding: 2vw;
-    }
-
-
+	.elementInNav {
+		width: 100%;
+		margin-right: 2vw;
+		padding: 2vw;
+	}
 }
