@@ -4,9 +4,19 @@ const Tab = [
         nom: 'Club basket-ball',
         img:'./imgprojets/cbbv.png',
         description:" Premier projet Fullstack.Projet de site d'un club de basket. Réalisation d'un back-end et d'un back-office. A finir et améliorer. ",
-        technologie : 'React JS (front) et Node JS (back)',
+        technologie : 'Mern stack',
         visite : true,
         lien: 'https://cbbv.herokuapp.com/'
+    },
+    {
+        id:7,
+        nom: 'Ag social-network',
+        img:'./imgprojets/network.png',
+        description:"Projet défi d'un reseau social. Le défi était de réaliser le MPV en moins d'une semaine. Il reste beaucoup de chose a faire dont je continuerai évidemment à le mettre a jour. Pour le design de l'UI, je me suis inspiré d'une autre site.",
+        technologie : 'Mern stack',
+        visite : false,
+        lien:'https://ag-socialnetwork.herokuapp.com/'
+
     },
     {
         id:1,

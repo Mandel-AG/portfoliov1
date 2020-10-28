@@ -59,7 +59,7 @@ export default function Projets () {
     
 
         <Animated  animationIn="fadeInLeft" animationOut="fadeOutLeft" isVisible={true}>      
-            <div className='title ProjectTitle'>
+            <div className='ProjectTitle'>
                 <h2>Projets</h2>
             </div>
 
