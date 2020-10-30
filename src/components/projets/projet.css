@@ -127,6 +127,8 @@ h2 {
 		flex-direction: column;
 		justify-content: center;
 		height: 100%;
+		width: 95%;
+		margin: auto;
 	}
 
 	.project__list {
