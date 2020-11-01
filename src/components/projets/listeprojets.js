@@ -12,9 +12,9 @@ const Tab = [
         id:7,
         nom: 'Ag social-network',
         img:'./imgprojets/network.png',
-        description:"Projet défi d'un reseau social. Le défi était de réaliser le MPV en moins d'une semaine. Il reste beaucoup de chose a faire dont je continuerai évidemment à le mettre a jour. Pour le design de l'UI, je me suis inspiré d'une autre site.",
+        description:"Défi projet d'un reseau social. Le défi était de réaliser le MPV en moins d'une semaine. Il reste beaucoup de chose à faire donc je continuerai évidemment à le mettre a jour. Pour le design de l'UI, je me suis inspiré d'une autre site.",
         technologie : 'Mern stack',
-        visite : false,
+        visite : true,
         lien:'https://ag-socialnetwork.herokuapp.com/'
 
     },
