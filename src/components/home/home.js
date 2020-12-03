@@ -18,7 +18,7 @@ class Home extends React.Component{
                     </div>
 
                     <div className='career'>
-                        <p>Développeur Junior</p>
+                        <p>Développeur</p>
                     </div>
                     
                     <div className='textContainer'>
